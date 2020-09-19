@@ -17,7 +17,7 @@ If you for some reason don't trust the pre-compiled binaries, you can also compi
 You'll need a working installation of Go with go 1.11+ modules support.
 
 ```bash
-go get -u github.com/michenriksen/aquatone/...
+go get -u github.com/ShlomieLiberow/aquatone/...
 # if you already have $GOPATH/bin in your $PATH, you won't need this:
 aquatone || echo 'export $PATH="$PATH:'"$(go env GOPATH)/bin"'"' >> "$(ls ~/.bashrc || ls ~/.bash_profile)"
 aquatone || . "$(ls ~/.bashrc || ~/.bash_profile)"
